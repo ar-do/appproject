@@ -1,0 +1,242 @@
+/* Login Template */
+body {
+    background-color:#d8eefc;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+}
+input, label {
+    display:block;
+}
+.LoginContainer {
+    margin:auto;
+    margin-top:100px;
+    width:325px;
+    height:400px;
+    background-color:#2A363B;
+    border-bottom-left-radius:50px;
+    border-right:10px solid #E84A5F;
+    -webkit-box-shadow: 0px 0px 4px 0px #9CD1FF;
+    -moz-box-shadow: 0px 0px 4px 0px #9CD1FF;
+    box-shadow: 0px 0px 4px 0px #9CD1FF;
+
+}
+.LoginTitle {
+    padding-top:10px;
+    text-align:center;
+
+    color:white;
+}
+.FormContainer {
+    margin:auto;
+    width:250px;
+    height:250px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.lbl_login {
+    color:white;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.inputfield {
+    width:250px;
+    font-size:20px;
+    height:30px;
+}
+.btn_login {
+    margin-top:20px;
+    margin-bottom:20px;
+    height:50px;
+    width:258px;
+    font-size:20px;
+}
+.a_login {
+    color:#FECEA8;
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    background-color: white;
+    border-radius:0;
+    border:2px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn:hover {
+    background-color:#f2f2f2;
+    border:2px solid 
+}
+
+/* Button Colors */
+
+/* Green */
+.btn_green {
+    background-color:#99B898;
+    border:2px solid #99B898;
+    color:white;
+}
+.btn_green:hover {
+    background-color:#A4C4A3;
+    border:2px solid #A4C4A3;
+}
+
+/* Red */
+.btn_red {
+    background-color: #BF0426;
+    border:2px solid #BF0426;
+    color:white;
+}
+.btn_red:hover{
+    background-color:#A60321;
+    border:2px solid #A60321;
+}
+/* Blue */
+.btn_blue {
+    background-color: #0367A6;
+    border:2px solid #0367A6;
+    color:white;
+}
+.btn_blue:hover{
+    background-color:#046FB3;
+    border:2px solid #046FB3;
+}
+
+/* Button Size */
+/* Small */
+.btn_small {
+    height:30px;
+    min-width:100px;
+    font-size:12px;
+}
+/* Medium */
+.btn_medium {
+    height:50px;
+    min-width:120px;
+    font-size:17px;
+}
+/* Large */
+.btn_large {
+    height:70px;
+    min-width:140px;
+    font-size:20px;
+}
+
+/* Main Page */
+.navbar {
+    background-color:#2A363B;
+    height:80px;
+    width:100%;
+    position:fixed;
+    margin-top:-100px;
+    border-bottom:5px solid #E84A5F;
+}
+.PostsContainer{
+    width:800px;
+    margin:auto;
+    margin-top:100px !important;
+}
+.nav_elements {
+    width:800px;
+    height:80px;
+
+    margin:auto;
+}
+.ContributionContainer {
+    width:800px;
+    height:200px;
+    background-color:white;
+    margin-top:20px;
+}
+.ContributionContainer:hover {
+    border: 5px solid #99B898;
+    cursor: pointer;
+}
+.ContributionControlls {
+    height:200px;
+    width:50px;
+    float:right;
+    background-color: #E84A5F;
+    margin-top:-89.5px;
+    
+}
+.ContrTag {
+    border: 2px solid black;
+    color:blacK;
+    width:50px;
+    text-align:center;
+    margin-top:4px;
+    margin-left:4px;
+    float:left;
+    
+}
+.ContributionTags {
+    float:left;
+    width:400px;
+    height:20px;
+
+}
+.ContributionTitle {
+    margin-left:10px;
+    max-width:580px;
+    float:left;
+}
+.ContributionText {
+    float:left;
+    max-height:130px;
+    width:530px;
+    margin-left:5px;
+    margin-top:-20px;
+    text-align: justify;
+}
+.ContributionImage {
+    height:200px;
+    width:200px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5cK8TCFLpqKfy9l7MzG8bh-CYsHMj_QDsGg&usqp=CAU");
+    border-right:5px solid #E84A5F;
+    float:left;
+}
+.ContributionAutor {
+    float:right;
+    margin-right:60px;
+    height:10px;
+    padding-top:5px;
+    text-align:right;
+}
+.positionCount {
+    margin-left:5px;
+    color:white;
+    font-weight:1000;
+}
+.positionCommentIcon {
+    margin-left:5px;
+    margin-top:10px;
+}
+.addContribution {
+    font-size:80px;
+    color:#99B898;
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin-bottom:20px;
+    margin-right:50px;
+}
+.addContribution:hover {
+    cursor: pointer;
+}
+.footer{
+    height:50px;
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-40 { font-size: 40px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
